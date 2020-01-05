@@ -109,7 +109,7 @@ input[type="text"],input[type="password"],input[type="datetime"],input[type="dat
 .header{color: #0070cc;}
 .header.bg,.header #inner-header,.menu-sp{background: #f7fcff;}
 #logo a{color: #043c78;}
-#g_nav .nav li a,.nav_btn,.menu-sp a,.menu-sp a,.menu-sp > ul:after{color: #009dbf;}
+#g_nav .nav li a,.nav_btn,.menu-sp a,.menu-sp a,.menu-sp > ul:after{color: #fff;}
 #logo a:hover,#g_nav .nav li a:hover,.nav_btn:hover{color:#b3b9bf;}
 @media only screen and (min-width: 768px) {
 .nav > li > a:after{background: #b3b9bf;}
@@ -167,7 +167,7 @@ ul.wpp-list li a:before{background: #3a91f4; color: #fffaea;}
 <style type="text/css">.broken_link, a.broken_link {
 	text-decoration: line-through;
 }</style><style type="text/css" id="custom-background-css">
-body.custom-background { background-color: #ffffff; }
+body.custom-background { background-color: #effaf9; }
 </style>
 </head>
 
@@ -177,23 +177,22 @@ body.custom-background { background-color: #ffffff; }
 <header id="header">
 	<div class="header-inner">
 		<div class="logo">
-			<h1>Online Academy Recrea</h1>
+			<h1><a href="/">Online Academy Recrea</a></h1>
 		</div>
 		<ul class="global-navi">
-			<li><a href="">TOP</a></li>
+			<li><a href="/">TOP</a></li>
 			<li><a href="">受講料</a></li>
 			<li><a href="">入会までの流れ</a></li>
 			<li><a href="">入塾</a></li>
 			<li><a href="">お問合せ</a></li>
 		</ul>
-		<div class="hamburger-menu">
-			<img src="./img/sp/" alt="">
-		</div>
+		<a href="#spnavi" data-remodal-target="spnavi" class="nav_btn"></a>
 	</div>
 </header>
 
 <div class="main-visual">
-	<img src="./img/pc/top.png" alt="日本全国どこでも受講可能！大学受験指導塾オンラインアカデミーリクレア">
+	<img class="pc" src="./img/pc/top.png" alt="日本全国どこでも受講可能！大学受験指導塾オンラインアカデミーリクレア">
+	<img class="sp" src="./img/sp/top.jpg" alt="日本全国どこでも受講可能！大学受験指導塾オンラインアカデミーリクレア">
 	<a class="button" href="/">
 		<img src="./img/pc/button.png" alt="無料相談はこちら">
 	</a>
@@ -202,17 +201,87 @@ body.custom-background { background-color: #ffffff; }
 <div class="wrap">
 	<div class="hot-news">
 		<span>HOT NEWS : </span>
-		<span>10/20 新入試制度</span>
-		<span>過去のNEWS</span>
+		<a href="">
+			<span>10/20 新入試制度</span>
+		</a>
+		<a class="past-news" href="">
+			<span>過去のNEWS</span>
+		</a>
 	</div>
 	<div class="catch-phrase">
 		<img src="./img/pc/copy.png" alt="">
 	</div>
-	<div class="recrea-outline"></div>
+	<div class="recrea-outline">
+		<h3><img src="./img/pc/recrea.png" alt="ACADEMY REACRE"></h3>
+		<p>
+			全国どこでも受講可能なリクレアオンラインは、<br>
+			チャットツールやビデオ通話などのインターネットを通じたオンライン大学受験指導塾です。<br>
+			現状の偏差値や成績に関わらず、確実に成績が上がる独自の受験指導カリキュラムを元に、<br>
+			マンツーマンで目標設定、計画、実行までをサポートします！
+			<a href=""><img src="./img/pc/button2.png" alt="さらに詳しく見る"></a>
+		</p>
+	</div>
 	<div class="eight-strong">
-
+		<h3><img src="./img/pc/copy2.png" alt="RECREAの8つの強み"></h3>
+		<img src="./img/pc/image.png" alt="ACADEMY REACRE">
+		<ul class="strong-points-list">
+			<li class="strong1">
+				<h4>レベル判定テストで自分の位置を明確にできる</h4>
+				<p>リクレアオンラインでは、無料相談の際に「レベル判定テスト」をしていただきます。塾が指定する問題を解いていただき、現状のレベルを割り出します。テストの点数と個別相談の話し合いを元に今から何の勉強をすべきかを明確にすることができます。</p>
+			</li>
+			<li class="strong2">
+				<h4>生徒一人一人に合わせた合格の手引きの作成</h4>
+				<p>入塾時に志望校の受験日から逆算した受験戦略を独自のステップ別勉強法を元に一緒に計画していきます。その後、定期的に生徒にコーチングを行っていき、勉強計画の修正や目標確認を行うことで常に正しい方向性で迷わず勉強を進めることができます。</p>
+			</li>
+			<li class="strong3">
+				<h4>超具体的な勉強法と問題解説</h4>
+				<p>リクレアでは誰でも成績をアップできる参考書１冊の使い方を丁寧に解説した動画を用意しています。「勉強手順は分かるけど、細かい使い方が分からない」ということが起こらないため、スピードを持って確実に知識を習得することができるため、自信をもって勉強をして成績を上げることができます。</p>
+			</li>
+			<li class="strong4">
+				<h4>ステップ別勉強法とスピード演習</h4>
+				<p>リクレア独自で構築した10段階ステップ別勉強法（英語の場合、科目により異なります）を元に勉強方法を構築していくのでどの生徒でも無理なくステップアップすることが可能になります。スピード演習では、パッケージテストによりターゲットの1900単語全てを2~3週間で習得することが可能です。</p>
+			</li>
+			<li class="strong5">
+				<h4>志望校過去問分析と徹底演習</h4>
+				<p>生徒の志望校に合わせた過去問分析と、ステップ別勉強法を掛け合わせて生徒の志望校合格に一番最適な方法を構築します。過去問対策は受験学部の頻出分野を中心に対策していくので過不足なく効率的に勉強できます。~3週間で習得することが可能です。</p>
+			</li>
+			<li class="strong6">
+				<h4>リクレア流生徒別コーチング</h4>
+				<p>生徒それぞれ不安や悩みはつきもの。特に受験直前の時期は気持ちも落ち着かないものです。経験豊富なリクレア講師陣が生徒の悩みにとことん向き合います。リクレア生徒一人一人の問題に向き合うことを１番に重視し、講師と共に乗り越えていきます。~3週間で習得することが可能です。</p>
+			</li>
+			<li class="strong7">
+				<h4>不定期開催の特別授業</h4>
+				<p>リクレアではメンタル面や、模試の受け方、大学生活の過ごし方についてなど受験勉強のモチベーションアップに繋がる特別授業を不定期で開催しております（通常土曜開催）。ただ成績アップのために勉強するのではなくなり、目的意識をもって勉強に取り組むことができます。~3週間で習得することが可能です。</p>
+			</li>
+			<li class="strong8">
+				<h4>全国どこでも受講可能</h4>
+				<p>リクレアはインターネットを使ったオンラインの大学受験指導塾なので、日本全国場所を問わずに受講することが可能です。塾や予備校が遠かったり、自分のレベルに合う勉強をしたいと考えている受験生にお勧めです。~3週間で習得することが可能です。</p>
+			</li>
+		</ul>
+		<div class="campaign">
+			<h4>2週間で英単語1900個暗記チャレンジ企画実施中！</h4>
+			オンラインのため全国どこからでも参加可能。<br>
+			あなたのご参加をお待ちしています！
+			<a href="">詳細はこちら ></a>
+		</div>
+	</div>
+	<div class="hr"></div>
+	<div class="youtube">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/su-fKFEKgpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 </div>
+
+<footer id="footer">
+	<div class="footer-head">ACADEMY RECREA</div>
+	<ul class="footer-navi">
+		<li><a href="/">TOP</a></li>
+		<li><a href="">受講料</a></li>
+		<li><a href="">入会までの流れ</a></li>
+		<li><a href="">お申込み</a></li>
+		<li><a href="">会社情報</a></li>
+		<li><a href="">お問合せ</a></li>
+	</ul>
+</footer>
 
 </div>
 <script type='text/javascript'>
@@ -229,5 +298,17 @@ var wpcf7 = {"apiSettings":{"root":"https:\/\/credo-ac.online\/wp-json\/contact-
 <script type='text/javascript' src='https://credo-ac.online/wp-content/themes/jstork/library/js/scripts.js'></script>
 <script type='text/javascript' src='https://credo-ac.online/wp-content/themes/jstork/library/js/libs/modernizr.custom.min.js'></script>
 <script type='text/javascript' src='https://credo-ac.online/wp-includes/js/wp-embed.min.js'></script>
+
+<div class="remodal-overlay remodal-is-closed" style="display: none;"></div>
+<div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-is-initialized remodal-is-closed" data-remodal-id="spnavi" data-remodal-options="hashTracking:false" tabindex="-1">
+	<button data-remodal-action="close" class="remodal-close"><span class="text gf">CLOSE</span></button>
+	<ul id="menu-%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc-1" class="sp_g_nav nav top-nav cf"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1019"><a href="https://credo-ac.online/kureakaryokin">料金-コースについて<span class="gf"></span></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1029"><a href="https://credo-ac.online/archives/category/%e5%90%88%e6%a0%bc%e4%bd%93%e9%a8%93%e8%a8%98">合格体験記<span class="gf"></span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-438"><a href="https://credo-ac.online/page-428">お問い合わせ<span class="gf"></span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1148"><a href="https://www.youtube.com/channel/UCYWdzlpYLFwPk_1G8V_cZ-Q?view_as=subscriber">Youtube<span class="gf"></span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"><a href="https://credo-ac.online/free-consultation">2週間無料体験・資料請求<span class="gf"></span></a></li>
+	</ul><button data-remodal-action="close" class="remodal-close"><span class="text gf">CLOSE</span></button>
+	</div></div>
+
 </body>
 </html>
